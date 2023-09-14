@@ -1,12 +1,153 @@
 body{
+    color: white;
     font-family: 'Audiowide', cursive;
+    background-image: url('./images/bg-home.jpg') ;
+    margin: 0;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.26);
-    margin: 0;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    width: 304px;
 }
 nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 606px;
+    margin-left: 5%;
+
+}
+nav li {
+    list-style:none;
+    height: 100%;
+    padding: 0% 5%;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+}
+.selected , nav li:hover{
+    background-color: black;
+    color: grey;
+}
+h1{
+    font-size:4em;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.satellite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-satellite{
+    position: relative;
+    top:20px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    align-self: center;
+}
+.featured>h3{
+    color: grey;
+}
+.img-project{
+    display: flex;
+}
+.backgroundpink{
+    background-color: #630031;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundpink>p{
+    width: 40%;
+}
+a{
+    color: white;
+}
+.backgroundblack{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+.backgroundblack button{
+    border: none;
+    background-color: #630031;
+    height: fit-content;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.backgroundwhite{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 80px;
+}
+.backgroundgrey{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog img{
+    margin-right: 15px;
+}
+.blog-title{
+    margin:0;
+    color: grey;
+}
+.blog-infos{
+    display: flex;
+    flex-direction: column;
+}
+.blog-infos button{
+    align-self: flex-end;
+
+}
+hr{
+    margin: 10% 0;
+}
+.infos>button{
+    background-color: black;
+    border: none;
+    color: grey;
+    padding: 10px 20px;
+}
+i{
+    margin: 10px;
 }
